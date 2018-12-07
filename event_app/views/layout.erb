@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CodeClan Events</title>
+  <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Khula:600,800" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="/reset.css">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  <body>
+    <header>
+      <nav class="navbar-top">
+        <ul>
+          <li class="logo">
+            CodeClan Events
+          </li>
+          <li>
+            <a href="/events">All Events</a>
+          </li>
+          <li>
+            <a href="/events/new">Create Event</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <%= yield %>
+
+    <footer>
+      <ul>
+        <li>&copy 2018</li>
+      </ul>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,217 @@
+<section class="card-gallery">
+
+<% @events.each do |event| %>
+  <div class="media-card">
+
+    <picture>
+        <source srcset="images/penguin-165.png" media="(max-width: 800px)">
+        <img class="card-img" src="images/penguin-300.png" alt="Picture of a penguin">
+    </picture>
+
+    <div class="card-actions">
+      <span>
+        <button>
+          edit
+        </button>
+      </span>
+      <span>
+        <button>
+          delete
+        </button>
+      </span>
+    </div>
+    <div class="card-details">
+      <div class="card-date">
+        <p>DEC</p>
+        <p>8</p>
+      </div>
+      <div>
+        <h3><%= event.title %></h3>  
+        <p>
+          <%= event.event_date.strftime("%a %b %d, %I:%M%p") %><br>
+          175 Glasgow Rd, Edinburgh, EH12 9BH<br>
+          Free
+        </p>
+      </div>
+    </div>
+  </div>
+<% end %>
+  
+  <div class="media-card">
+    <picture>
+      <source srcset="images/penguin-165.png" media="(max-width: 800px)">
+      <img class="card-img" src="images/penguin-300.png" alt="Picture of a penguin">
+    </picture>
+    <div class="card-actions">
+      <span>
+        <button>
+          share
+        </button>
+      </span>
+      <span>
+        <button>
+          save
+        </button>
+      </span>
+    </div>
+    <div class="card-details">
+      <div class="card-date">
+        <p>DEC</p>
+        <p>8</p>
+      </div>
+      <div>
+        <h3>The Penguin Parade</h3> 
+        <p>
+          Wed, Dec 5, 9:00am<br>
+          175 Glasgow Rd, Edinburgh, EH12 9BH<br>
+          Free
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="media-card">
+    <img class="card-img" src="images/penguin.jpg" alt="Picture of a penguin">
+    <div class="card-actions">
+      <span>
+        <button>
+          share
+        </button>
+      </span>
+      <span>
+        <button>
+          save
+        </button>
+      </span>
+    </div>
+    <div class="card-details">
+      <div class="card-date">
+        <p>DEC</p>
+        <p>8</p>
+      </div>
+      <div>
+        <h3>The Penguin Parade</h3> 
+        <p>
+          Wed, Dec 5, 9:00am<br>
+          175 Glasgow Rd, Edinburgh, EH12 9BH<br>
+          Free
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="media-card">
+    <img class="card-img" src="images/penguin.jpg" alt="Picture of a penguin">
+    <div class="card-actions">
+      <span>
+        <button>
+          share
+        </button>
+      </span>
+      <span>
+        <button>
+          save
+        </button>
+      </span>
+    </div>
+    <div class="card-details">
+      <div class="card-date">
+        <p>DEC</p>
+        <p>8</p>
+      </div>
+      <div>
+        <h3>The Penguin Parade</h3> 
+        <p>
+          Wed, Dec 5, 9:00am<br>
+          175 Glasgow Rd, Edinburgh, EH12 9BH<br>
+          Free
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="media-card">
+    <img class="card-img" src="images/penguin.jpg" alt="Picture of a penguin">
+    <div class="card-actions">
+      <span>
+        <button>
+          share
+        </button>
+      </span>
+      <span>
+        <button>
+          save
+        </button>
+      </span>
+    </div>
+    <div class="card-details">
+      <div class="card-date">
+        <p>DEC</p>
+        <p>8</p>
+      </div>
+      <div>
+        <h3>The Penguin Parade</h3> 
+        <p>
+          Wed, Dec 5, 9:00am<br>
+          175 Glasgow Rd, Edinburgh, EH12 9BH<br>
+          Free
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="media-card">
+    <img class="card-img" src="images/penguin.jpg" alt="Picture of a penguin">
+    <div class="card-actions">
+      <span>
+        <button>
+          share
+        </button>
+      </span>
+      <span>
+        <button>
+          save
+        </button>
+      </span>
+    </div>
+    <div class="card-details">
+      <div class="card-date">
+        <p>DEC</p>
+        <p>8</p>
+      </div>
+      <div>
+        <h3>The Penguin Parade</h3> 
+        <p>
+          Wed, Dec 5, 9:00am<br>
+          175 Glasgow Rd, Edinburgh, EH12 9BH<br>
+          Free
+        </p>
+      </div>
+    </div>
+  </div>
+  <div class="media-card">
+    <img class="card-img" src="images/penguin.jpg" alt="Picture of a penguin">
+    <div class="card-actions">
+      <span>
+        <button>
+          share
+        </button>
+      </span>
+      <span>
+        <button>
+          save
+        </button>
+      </span>
+    </div>
+    <div class="card-details">
+      <div class="card-date">
+        <p>DEC</p>
+        <p>8</p>
+      </div>
+      <div>
+        <h3>The Penguin Parade</h3> 
+        <p>
+          Wed, Dec 5, 9:00am<br>
+          175 Glasgow Rd, Edinburgh, EH12 9BH<br>
+          Free
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
